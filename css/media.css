@@ -1,0 +1,285 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*common*/
+.c_padd{
+	padding-bottom: 60px;
+}
+.btn_c {
+    padding: 8px 30px;
+}
+/*header*/
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+/*banner*/
+.banner{
+	padding-bottom: 50px;
+}
+.b_h1 {
+    padding: 0;
+    font-size: 35px;
+}
+.b_p {
+    margin: 20px 0;
+    line-height: 24px;
+}
+
+/*about*/
+.c_p{
+    font-size: 18px;
+}
+.c_h1{
+    padding: 15px 0 10px;
+    font-size: 35px;
+}
+.ab_img {
+    padding: 0 30px;
+}
+.ab_text{
+	text-align: center;
+    padding: 0 26px;
+}
+.ab_p {
+    padding-top: 15px;
+    line-height: 22px;
+}
+.ab_bg{
+	display: block;
+}
+.btn_ab1{
+    margin: 0 auto 0;
+}
+.btn_ab2{
+    margin: 10px auto 0;
+}
+/*service*/
+.s_text {
+    text-align: center;
+    padding: 0 20px 0px;
+}
+.s_item {
+    margin: 30px auto 0;
+}
+.s_text a {
+    padding-top: 15px;
+    justify-content: center;
+}
+/*portfolio*/
+.btn_pf {
+    padding: 8px 8px;
+}
+.pf_img {
+    justify-content: center;
+    display: flex;
+}
+/*collab*/
+.collab_t {
+    padding: 0px 60px 280px;
+    text-align: center;
+}
+.img_c1 {
+    display: none;
+}
+.img_c2 {
+    top: -252px;
+}
+/*footer top*/
+.footer_top{
+    padding: 35px 0 15px;
+}
+.ft_links{
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.ft_links h2{
+    font-size: 20px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*common*/
+.c_padd{
+	padding-bottom: 60px;
+}
+.btn_c {
+    padding: 10px 35px;
+}
+/*header*/
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+/*banner*/
+.banner{
+	padding-bottom: 50px;
+}
+.b_h1 {
+    padding: 0;
+    font-size: 40px;
+}
+.b_p {
+    margin: 20px 0;
+    line-height: 24px;
+}
+
+/*about*/
+.c_p{
+    font-size: 18px;
+}
+.c_h1{
+    padding: 15px 0 0;
+    font-size: 35px;
+}
+.ab_img {
+    padding: 30px;
+}
+.ab_text{
+	text-align: center;
+    padding: 0 26px;
+}
+.ab_p {
+    padding-top: 15px;
+    line-height: 22px;
+}
+.ab_bg{
+	justify-content: center;
+}
+/*service*/
+.s_text {
+    padding: 0 20px 0px;
+}
+.s_item {
+    margin: 30px auto 0;
+}
+/*portfolio*/
+.btn_pf {
+    padding: 8px 8px;
+}
+.pf_img {
+    justify-content: center;
+    display: flex;
+}
+/*collab*/
+.collab_t {
+    padding: 0px 60px 300px;
+    text-align: center;
+}
+.img_c1 {
+    display: none;
+}
+.img_c2 {
+    top: -273px;
+    left: 92px;
+}
+/*footer top*/
+.ft_links{
+    padding-bottom: 50px;
+}
+.ft_links h2{
+    font-size: 20px;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*common*/
+.c_padd{
+	padding-bottom: 80px;
+}
+.btn_c {
+    padding: 10px 35px;
+}
+/*header*/
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+/*banner*/
+.banner{
+	padding-bottom: 50px;
+}
+.b_h1 {
+    padding: 0px 30px;
+    font-size: 45px;
+}
+/*about*/
+.c_p{
+    font-size: 20px;
+}
+.c_h1{
+    padding: 20px 0 20px;
+    font-size: 40px;
+}
+.ab_img {
+    padding: 30px;
+}
+.ab_text{
+	text-align: center;
+    padding: 15px 26px 0;
+}
+.ab_p {
+    padding-top: 15px;
+    line-height: 22px;
+}
+.ab_bg{
+	justify-content: center;
+}
+/*service*/
+.s_text {
+    padding: 0 20px 0px;
+}
+.s_item {
+    margin: 30px auto 0;
+}
+/*testimonial*/
+.tm_i {
+    padding: 50px 84px;
+}
+/*collab*/
+.collab_t {
+    padding: 0px 122px 400px;
+}
+.img_c1 {
+    top: -350px;
+}
+.img_c2 {
+    top: -260px;
+    left: 55px;
+}
+/*footer top*/
+.ft_links h2{
+    font-size: 20px;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner*/
+.b_h1 {
+    padding: 0 5px;
+}
+
+/*about*/
+.c_h1{
+    font-size: 45px;;
+}
+.ab_text{
+	padding: 0;
+}
+.ab_p {
+    padding-top: 20px;
+    line-height: 24px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
